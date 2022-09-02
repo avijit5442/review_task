@@ -11,16 +11,29 @@ import Mainpage from './components/Portfolio/Mainpage';
 import PortfolioRoutes from './components/Portfolio/PortfolioRoutes';
 import ShopifyRouteTable from './components/Shopify/ShopifyRouteTable';
 import Test from './components/Shopify/Test';
-import { CookiesProvider } from 'react-cookie';
+import Project1Routes from './components/project1/Project1Routes';
+import SearchPage from './components/project2/SearchPage';
+import NotesMainpage from './components/project4(Notes app)/NotesMainpage';
+import PokemanHomePage from './components/Project5(Pokeman API)/PokemanHomePage';
+import ReviewRouteTable from './Project6(for knovator,Gujurat)/ReviewRouteTable';
+import TodoMainPage from './project7(To do list)/TodoMainPage';
+import StartRouteTable from './components/project8(Exam for start)/StartRouteTable';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-//
+//<PortfolioRoutes/>
+//<PortfolioRoutes/>
+//<SearchPage/>
+//<Project1Routes />
+//<NotesMainpage />
+//<PokemanHomePage/>
+//<TodoMainPage />
+//<StartRouteTable />
 root.render(
   <React.StrictMode>
-   <PortfolioRoutes/>
-    
+    <ReviewRouteTable/>
   </React.StrictMode>
 );
 

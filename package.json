@@ -2,7 +2,6 @@
   "name": "my",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://profile.github.io",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
@@ -14,6 +13,7 @@
     "bootstrap-icons": "^1.9.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "formik": "^2.2.9",
     "jquery": "^3.6.0",
     "mongodb": "^4.9.0",
     "react": "^18.2.0",
@@ -21,15 +21,15 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "socket.io": "^4.5.1",
+    "unsplash-js": "^7.0.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -48,8 +48,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
